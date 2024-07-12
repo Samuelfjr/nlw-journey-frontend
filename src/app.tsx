@@ -9,7 +9,7 @@ export function App() {
         <div className="flex items-center h-16 px-4 rounded-xl bg-zinc-900 shadow-shape">
           <input
             type="text"
-            placeholder="Para onde você vai??"
+            placeholder="Para onde você vai?"
             className="text-lg bg-transparent placeholder-zinc-400"
           />
           <input
