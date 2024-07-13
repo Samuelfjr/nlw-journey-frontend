@@ -4,9 +4,12 @@ export function App() {
   return (
     <div className="flex items-center justify-center h-screen bg-center bg-no-repeat bg-pattern">
       <div className="w-full max-w-3xl px-6 space-y-10 text-center">
-        <p className="text-lg text-zinc-300">
-          Convide seus amigos e planeje sua próxima viagem!
-        </p>
+        <div className="flex flex-col items-center gap-3">
+          <img src="/logo.svg" alt="plann.er" />
+          <p className="text-lg text-zinc-300">
+            Convide seus amigos e planeje sua próxima viagem!
+          </p>
+        </div>
 
         <div className="flex items-center h-16 gap-3 px-4 rounded-xl bg-zinc-900 shadow-shape">
           <div className="flex items-center flex-1 gap-2">
@@ -14,7 +17,7 @@ export function App() {
             <input
               type="text"
               placeholder="Para onde você vai?"
-              className="text-lg bg-transparent outline-none placeholder-zinc-400"
+              className="flex-1 text-lg bg-transparent outline-none placeholder-zinc-400"
             />
           </div>
           <div className="flex items-center gap-2">
